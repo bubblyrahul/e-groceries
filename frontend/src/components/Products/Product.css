@@ -1,0 +1,227 @@
+/* Style for the button group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 2%;
+  transition: all 0.3s ease;
+  }
+  
+  .button-group button {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  }
+  
+  .button-group button:hover {
+  background-color: #333;
+  color: #fff;
+  }
+  
+  /* Style for the product cards */
+  .product-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+  .product-card {
+  width: 20%;
+  margin-bottom: 20px;
+  border: 1px solid #0c0c0c;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  }
+  
+  .product-card:hover {
+  transform: scale(1.05);
+  }
+  
+  .product-image {
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-image img {
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-image img:hover {
+  transform: scale(1.1);
+  }
+  
+  .product-details h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 3px;
+  }
+  
+  .product-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  }
+  
+  .add-to-cart-btn {
+  background-color: #1ad1544c;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+  background-color: #fff;
+  color: #333;
+  }
+  
+  /* Style for the container */
+  .category-dropdown-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  
+  /* Style for the label */
+  label {
+  margin-right: 10px;
+  font-size: 16px;
+  }
+  
+  /* Style for the select element */
+  .select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  }
+  
+  /* Style for the selected option */
+  option:checked {
+  background-color: #ddd;
+  }
+  
+  /* Style for the dropdown arrow */
+  select::-ms-expand {
+  display: none;
+  }
+  
+  select::-webkit-outer-spin-button,
+  select::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  
+  .alerts {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  padding: 10px 20px;
+  background-color: red;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  z-index: 9999;
+  }
+  .alert {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    padding: 10px 20px;
+    background-color: rgb(44, 232, 85);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    z-index: 9999;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+  
+  .product img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    background: #dadbda;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product img:hover {
+    transform: scale(1.1);
+  }
+  
+  .product h6 {
+    margin: 0;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .product h6:hover {
+    color: #4CAF50;
+  }
+
+  .product p {
+    margin: 10px 0;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .product p:hover {
+    color: #4CAF50;
+  }
+  
+  .product button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .product button:hover {
+    background-color: #3e8e41;
+  }
+  

@@ -1,0 +1,99 @@
+.auth-form-containers {
+  display: flex;
+  background-image: url("https://img.freepik.com/free-photo/top-view-vegetables-fruits-bag_23-2148949707.jpg?w=1060&t=st=1682777739~exp=1682778339~hmac=d144f68f2d01185c41908fb8ebb7701132ddf3c68b9fb8057cb15519a865be89");
+  background-size: cover;
+  background-position: center; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Signup.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  background-color: #f9f9f95a;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(219, 204, 204, 0.2);
+  flex-direction: column;
+  justify-content: center; /* center vertically */
+  margin-left: 60%;
+}
+
+.Signup.form label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgb(24, 24, 24);
+}
+.Signup button:hover {
+  background-color: #6e9fff; /* Change background color on hover */
+  cursor: pointer; /* Change cursor on hover */
+}
+.Signup.form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Signup.form button[type="submit"] {
+  padding: 10px;
+  background-color: #300aeed2;
+  color: #f1f1ed;
+  border: none;
+  border-radius: 5px;
+  margin-left: 0%;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Signup.form .login {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.Signup.form .login a {
+  color: #374eac;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.subtitle {
+  color: #d19c9c;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.placeholder {
+  color: #1919c8;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+.Login.link {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.link-btn {
+  background: none;
+  color: rgb(140, 132, 132);
+  text-decoration: underline;
+}
+
+
+.signup.form button[type="submit"]:hover {
+  background-color: #db1f3b;
+}

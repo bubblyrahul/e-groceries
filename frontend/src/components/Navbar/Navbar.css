@@ -1,0 +1,137 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 10px;
+  background-color: #b7d5df;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .dropdown-menu {
+  position:absolute;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  margin-top: 4px;
+}
+.imgAvatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.dropdown-toggle:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border-radius: 0;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 0;
+}
+
+.dropdown-item {
+  color: #212529;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 0;
+  white-space: nowrap;
+}
+
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.logo {
+  width: 200px;
+  height: 40px;
+  margin-right: 10px;
+  position:relative;
+  margin-bottom: 4%;
+}
+
+.navbar-middle {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  margin-bottom: 1%;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 100;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+

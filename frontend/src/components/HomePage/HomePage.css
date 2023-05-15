@@ -1,0 +1,73 @@
+.HomePage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+  background-image: url("https://lh3.googleusercontent.com/d6JMfkq1oQwX8PIFDDgSTvEUJKx81c-H0TUpxzg_uW888QnP4UlVhYUXlhS6rK_-StSm52LVBmjdpRsQHXaJIxeto6wGyki1R29sodfh=h450-rw");
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/003/324/328/original/blurred-of-supermarket-and-department-store-or-shopping-mall-free-photo.jpg");
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  background: #dadbda;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+}
+
+.product h6 {
+  margin: 0;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.product h6:hover {
+  color: #4CAF50;
+}
+
+.product p {
+  margin: 10px 0;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.product p:hover {
+  color: #4CAF50;
+}
+
+.press {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.press:hover {
+  background-color: #3e8e41;
+}
